@@ -384,3 +384,7 @@ let pokemon = {
 pokemon.charizard();
 // --> 'I am the last stage of Charmander evolution!'
 ```
+
+## From objects to Maps
+
+**TODO: Find another explanation elsewhere**
