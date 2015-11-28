@@ -344,3 +344,43 @@ console.log(charlottesCake.describe() + ' 🎂');
 
 * Note: What once was impossible, we can now extend the built-in error
 constructor in a nice way, too.
+
+## Defining functions in an object literal
+
+From this:
+
+```javascript
+var pokemon = {
+  charmander: function() {
+    console.log('I am the base pokemon!');
+  },
+  charmeleon: function() {
+    console.log('I am the level 2 evolved Charmander!');
+  },
+  charizard: function() {
+    console.log('I am the last stage of Charmander evolution!');
+  }
+}
+
+pokemon.charizard();
+// --> 'I am the last stage of Charmander evolution!'
+```
+
+To this:
+
+```javascript
+let pokemon = {
+  charmander() {
+    console.log('I am the base pokemon!');
+  },
+  charmeleon() {
+    console.log('I am the level 2 evolved Charmander!');
+  },
+  charizard() {
+    console.log('I am the last stage of Charmander evolution!');
+  }
+}
+
+pokemon.charizard();
+// --> 'I am the last stage of Charmander evolution!'
+```
