@@ -1,9 +1,10 @@
 # Trying out ES6
 
 Three methods of playing with ES6:
-    * Use online Babel REPL: http://babeljs.io/repl/
-    * Use babel-node on the command line
-    * Use some parts natively in some JS engines
+
+* Use online Babel REPL: http://babeljs.io/repl/
+* Use babel-node on the command line
+* Use some parts natively in some JS engines
 
 # New features
 
@@ -55,6 +56,7 @@ const widget = `
 ## Function expressions -> Arrow Functions
 
 _I might have this wrong... get it?._
+
 **TODO: Explore this further**
 
 `this` can be tricky to use. In ES5, we usually try and make this easier
