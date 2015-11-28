@@ -310,7 +310,7 @@ BirthdayCake.prototype.describe = function() {
 
 var charlottesCake = new BirthdayCake('lemon', 'Charlotte');
 console.log(charlottesCake.describe() + ' 🎂');
-// --> 'My lemon cake is delicious! I hope you enjoy this, Charlotte!'
+// --> 'My lemon cake is delicious! I hope you enjoy this, Charlotte! 🎂'
 ```
 
 To this:
@@ -339,7 +339,7 @@ class BirthdayCake extends Cake {
 
 let charlottesCake = new BirthdayCake('lemon', 'Charlotte');
 console.log(charlottesCake.describe() + ' 🎂');
-// --> 'My lemon cake is delicious! I hope you enjoy this, Charlotte!'
+// --> 'My lemon cake is delicious! I hope you enjoy this, Charlotte! 🎂'
 ```
 
 * Note: What once was impossible, we can now extend the built-in error
