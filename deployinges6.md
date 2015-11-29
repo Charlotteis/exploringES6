@@ -20,7 +20,7 @@ use the ES6 file. Else, use the transpiled ES5 file.
 ## Some ES6 features cannot be transpiled
 
 * Brand new features cannot be transpiled completely faithfully
-    - `let` and `const` are transpiled to∏ var. Any variables using the name `let/var` will be renamed to avoid clashes. No way to have the
+    - `let` and `const` are transpiled to var. Any variables using the name `let/var` will be renamed to avoid clashes. No way to have the
     immutable bindings of const in ES5.
 
 * Proxies, subclassable built-in constructors (Error, Array) and tail
